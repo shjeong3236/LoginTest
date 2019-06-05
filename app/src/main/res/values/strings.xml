@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LoginTest</string>
+    <string name="kakao_app_key">5cefb36f5d9bfa2a8a10fefdee063843</string>
+    <string name="facebook_app_id">850280248677677</string>
+    <string name="fb_login_protocol_scheme">fb850280248677677</string>
+    <string name="google_auth">810410206048-a09vfp7jojrv0sjn2n38hi5nbv38e17t.apps.googleusercontent.com</string>
 </resources>

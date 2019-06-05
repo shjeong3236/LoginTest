@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+                       android:accessibilityEventTypes="typeViewClicked|typeViewFocused|typeWindowContentChanged"
+                       android:packageNames="com.shjeong.logintest"
+                       android:accessibilityFeedbackType="feedbackSpoken"
+                       android:notificationTimeout="500"
+                       android:settingsActivity="com.shjeong.logintest.MainActivity"
+                       android:canRetrieveWindowContent="true"
+
+                       android:accessibilityFlags="flagIncludeNotImportantViews|flagReportViewIds"
+                       android:canRequestTouchExplorationMode="true"
+
+/>
