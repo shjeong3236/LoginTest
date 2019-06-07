@@ -15,6 +15,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.google.firebase.dynamiclinks.FirebaseDynamicLinks
+import com.shjeong.logintest.noise.NoiseActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import net.daum.mf.map.api.CalloutBalloonAdapter
 import net.daum.mf.map.api.MapPOIItem
@@ -79,6 +80,13 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this@MainActivity, MyAccessibilityService::class.java)
         startService(intent)
         Log.d("main!@#", "package Name : ${this.packageName}")
+
+
+        noiseBtn.setOnClickListener {
+            val noiseIntent = Intent(this@MainActivity, NoiseActivity::class.java)
+            startActivity(noiseIntent)
+        }
+
     }
 
     private fun firebaseDynamicLinks_check() {
